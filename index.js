@@ -35,31 +35,6 @@ function showThumbnails(responseData) {
   })
 }
 
-getData()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let galleryThumbs = new Swiper('.gallery-thumbs', {
   observer: true,
   observeParents: true,
@@ -84,3 +59,5 @@ let galleryTop = new Swiper('.gallery-top', {
     swiper: galleryThumbs
   }
 });
+
+getData()
