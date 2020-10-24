@@ -30,7 +30,7 @@ function showThumbnails(responseData) {
     let attributeThumb = document.createAttribute('class')
     attributeThumb.value = "swiper-slide"
     thumbnailElement.setAttributeNode(attributeThumb)
-    thumbnailElement.innerHTML = `<img src="https://picsum.photos/id/${picture.id}/400/300">`
+    thumbnailElement.innerHTML = `<img src="https://picsum.photos/id/${picture.id}/400/225">`
     smallPictures.appendChild(thumbnailElement)
   })
 }
@@ -40,7 +40,7 @@ let galleryThumbs = new Swiper('.gallery-thumbs', {
   observeParents: true,
   direction: 'vertical',
   spaceBetween: 5,
-  slidesPerView: 4,
+  slidesPerView: 5,
   freeMode: true,
   watchSlidesVisibility: true,
   watchSlidesProgress: true,
